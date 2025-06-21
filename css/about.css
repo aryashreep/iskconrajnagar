@@ -8,24 +8,24 @@ Licence: <a href="https://www.templateonweb.com/license">Website Template Licenc
 
 /*********************about****************/
 .center_about {
-    background-image: url(../img/2.jpg);
-    background-position: center center;
-    background-size: cover;
+  background-image: url(../img/lotus_flower.jpeg);
+  background-position: center center;
+  background-size: cover;
 }
-#about_pg{
-padding-bottom:90px; 
- }
-.about_pg1l1{
-z-index:1;
-left:10%;
- }
- .about_pg1l4{
-    right: 14%;
-    padding-top: 220px;
-    z-index: 4;
- }
- 
- .timeline {
+#about_pg {
+  padding-bottom: 90px;
+}
+.about_pg1l1 {
+  z-index: 1;
+  left: 10%;
+}
+.about_pg1l4 {
+  right: 14%;
+  padding-top: 220px;
+  z-index: 4;
+}
+
+.timeline {
   list-style: none;
   padding: 20px 0 20px;
   position: relative;
@@ -72,15 +72,15 @@ left:10%;
 }
 .timeline > li.timeline-inverted + li:not(.timeline-inverted),
 .timeline > li:not(.timeline-inverted) + li.timeline-inverted {
-margin-top: -60px;
+  margin-top: -60px;
 }
 
 .timeline > li:not(.timeline-inverted) {
-padding-right:90px;
+  padding-right: 90px;
 }
 
 .timeline > li.timeline-inverted {
-padding-left:90px;
+  padding-left: 90px;
 }
 .timeline > li > .timeline-panel:before {
   position: absolute;
@@ -165,160 +165,150 @@ padding-left:90px;
 }
 
 .approach_1l .nav-tabs .nav-link.active {
-    background: none;
-    color: #000;
-	border:none;
-	border-bottom:3px solid #f74f22;
+  background: none;
+  color: #000;
+  border: none;
+  border-bottom: 3px solid #f74f22;
 }
 .approach_1l .nav-tabs .nav-link {
-    background-color: #f7f7f7;
-    color: #000;
-	border:none;
-	border-bottom:3px solid transparent;
-	padding:13px 35px;
-	font-size:15px;
-	font-weight:bold;
-	border-radius:0;
+  background-color: #f7f7f7;
+  color: #000;
+  border: none;
+  border-bottom: 3px solid transparent;
+  padding: 13px 35px;
+  font-size: 15px;
+  font-weight: bold;
+  border-radius: 0;
 }
 .approach_1l .nav-tabs .nav-link:hover {
   color: #f74f22;
 }
 
 #reg {
-    background-image: url(../img/22.jpg);
-    background-position: center center;
-    background-size: cover;
+  background-image: url(../img/22.jpg);
+  background-position: center center;
+  background-size: cover;
 }
 #reg ::placeholder {
   color: #fff;
   opacity: 1; /* Firefox */
 }
-.reg_1il .input-group{
-background:#2c37448a; 
- }
-.reg_1il .form_text{
-background:#2c37448a; 
- }
- 
-#blog_o{
-padding-bottom:150px!important; 
- }
-.bg_backo1{
-padding-bottom:180px;  
- }
+.reg_1il .input-group {
+  background: #2c37448a;
+}
+.reg_1il .form_text {
+  background: #2c37448a;
+}
+
+#blog_o {
+  padding-bottom: 150px !important;
+}
+.bg_backo1 {
+  padding-bottom: 180px;
+}
 /*********************about_end****************/
 
+@media screen and (max-width: 768px) {
+  .about_pg1l1 {
+    position: static !important;
+    padding: 0;
+  }
+  .about_pg1l1 img {
+    width: 100%;
+  }
 
-@media screen and (max-width : 768px){
+  .about_pg1l4 {
+    position: static !important;
+    padding-left: 10px;
+    padding-top: 20px;
+    padding-bottom: 30px;
+  }
+  .about_pg1r {
+    margin-top: 15px;
+    text-align: center;
+  }
+  .about_pg1r p {
+    text-align: left;
+  }
+  .about_pg1rir {
+    margin-top: 15px;
+  }
 
-.about_pg1l1 {
-position:static!important;
-padding:0; 
- }
-.about_pg1l1 img{
-width:100%;
- }
-
-.about_pg1l4 {
-   position:static!important;
-   padding-left: 10px;
-   padding-top: 20px;
-   padding-bottom: 30px;
- }
-.about_pg1r{
-margin-top:15px;
-text-align:center; 
- }
-.about_pg1r p{
-text-align:left; 
- }
-.about_pg1rir{
-margin-top:15px; 
- }
- 
-.timeline  h3{
-font-size:15px; 
- }
-.timeline  p{
-font-size:12px; 
- }
-.timeline  h6{
-font-size:12px; 
- }
-.timeline-panel{
-margin-top:15px; 
- }
-.approach_1l {
-padding-top:20px!important;
-text-align:center; 
- }
-.approach_1l p{
-text-align:left; 
- }
-.approach_1l .nav-tabs .nav-link {
+  .timeline h3 {
+    font-size: 15px;
+  }
+  .timeline p {
+    font-size: 12px;
+  }
+  .timeline h6 {
+    font-size: 12px;
+  }
+  .timeline-panel {
+    margin-top: 15px;
+  }
+  .approach_1l {
+    padding-top: 20px !important;
+    text-align: center;
+  }
+  .approach_1l p {
+    text-align: left;
+  }
+  .approach_1l .nav-tabs .nav-link {
     padding: 13px 15px;
-    margin-top:3px;
-	margin-bottom:3px;
+    margin-top: 3px;
+    margin-bottom: 3px;
+  }
+  #blog_o {
+    padding-bottom: 40px !important;
+  }
+  .bg_backo1 {
+    padding-bottom: 80px;
+  }
+  #about_pg {
+    padding-bottom: 40px;
+  }
 }
-#blog_o{
-padding-bottom:40px!important;  
- }
-.bg_backo1{
-padding-bottom:80px;  
- }
-#about_pg{
-padding-bottom:40px; 
- }
- }
 
+@media (min-width: 576px) and (max-width: 767px) {
+}
 
-@media (min-width:576px) and (max-width:767px) {
+@media (min-width: 768px) and (max-width: 991px) {
+  .about_pg1l1 {
+    left: 0%;
+  }
+  .about_pg1l4 {
+    right: 5%;
+    padding-top: 320px;
+  }
+  .approach_1l .nav-tabs .nav-link {
+    padding: 13px 15px;
+  }
+  .approach_1l {
+    padding-top: 0 !important;
+  }
+  #about_pg {
+    padding-bottom: 210px;
+  }
+}
 
- }
- 
-@media (min-width:768px) and (max-width:991px) {
-    .about_pg1l1{
-		left:0%;
-	  }
-	.about_pg1l4{
-			right: 5%;
-			padding-top: 320px;
-			
-	  }
-	.approach_1l .nav-tabs .nav-link {
-		padding: 13px 15px;
-	}
-	.approach_1l {
-	padding-top:0!important; 
-	 }
-	#about_pg{
-	padding-bottom:210px; 
-	 }
- }
+@media (min-width: 992px) and (max-width: 1200px) {
+  .about_pg1l1 {
+    left: 0%;
+  }
+  .about_pg1l4 {
+    right: 5%;
+    padding-top: 220px;
+  }
+  .approach_1l {
+    padding-top: 0 !important;
+  }
+  #about_pg {
+    padding-bottom: 60px;
+  }
+}
 
-@media (min-width:992px) and (max-width:1200px) {
-	.about_pg1l1{
-		left:0%;
-	  }
-	.about_pg1l4{
-			right: 5%;
-			padding-top: 220px;
-			
-	  }
-	.approach_1l {
-	padding-top:0!important; 
-	 }
-	#about_pg{
-	padding-bottom:60px; 
-	 }
- }
-
-@media (min-width:1400px) and (max-width:2000px) {
-
-	#about_pg{
-	padding-bottom:200px; 
-	 }
- }
-
-
-
+@media (min-width: 1400px) and (max-width: 2000px) {
+  #about_pg {
+    padding-bottom: 200px;
+  }
+}

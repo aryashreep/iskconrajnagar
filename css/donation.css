@@ -1,0 +1,133 @@
+/*
+Template Name: Krishna Temple
+File: Layout CSS
+Author: TemplatesOnWeb
+Author URI: https://www.templateonweb.com/
+Licence: <a href="https://www.templateonweb.com/license">Website Template Licence</a>
+*/
+
+/*********************events****************/
+.center_donate{
+    background-image: url(../img/22.jpg);
+    background-position: center center;
+    background-size: cover;
+}
+.center_donate_dt{
+    background-image: url(../img/34.jpg);
+    background-position: center center;
+    background-size: cover;
+}
+.donate_dt1l2 ul li{
+background:#f5e5e1;
+padding:8px 30px;
+border-radius:8px;
+font-size:14px; 
+ }
+.donate_dt1r1i2 span{
+border-radius:20px 30px 30px 0px; 
+ }
+.donate_dt1r1i2{
+bottom:20px;
+left:-5px; 
+ }
+.donate_dt1r1{
+border-bottom:0;
+border-radius:20px 20px 0px 0px; 
+ }
+.donate_dt1r2{
+border-radius:0px 0px 20px 20px; 
+border-top:0;
+ }
+ 
+.donate_dt1r2 .progress-bar {
+    background: #F9F9F9;
+    border-radius: 0;
+}
+.donate_dt1r2 .progress {
+    background-color: #f74f22;
+    height: 6px;
+    overflow: hidden;
+    border-radius: 0;
+}
+.donate_dt1r3i{
+border-radius:0px 0px 20px 20px; 
+ }
+.donate_dt1r3 h5{
+border-radius:20px 20px 0px 0px; 
+ }
+#donate{
+padding-bottom:150px!important; 
+}
+#donate_dt{
+padding-bottom:150px!important; 
+}
+.donate_dt1l1 ::placeholder {
+  color: #fff;
+  opacity: 1; /* Firefox */
+}
+/*********************events_end****************/
+
+
+@media screen and (max-width : 767px){
+#donate{
+padding-bottom:40px!important; 
+ }
+#donate_dt{
+width:90%!important;
+padding-bottom:40px!important; 
+ }
+.donate_dt1l2 ul li{
+margin-top:3px; 
+margin-bottom:3px;
+ }
+#donate_dt h5{
+text-align:center; 
+ }
+.donate_dt1l2i1l{
+margin-top:10px; 
+ }
+.donate_dt1r{
+margin-top:20px; 
+ }
+.donate_dt1r1io  p{
+text-align:center;  
+ }
+.donate_dt1r3ir{
+margin-top:15px;
+text-align:center; 
+ }
+ }
+
+
+@media (min-width:576px) and (max-width:767px) {
+
+ }
+ 
+@media (min-width:768px) and (max-width:991px) {
+#donate_dt{
+width:100%!important;
+ }
+.donate_dt1l2 ul li{
+margin-top:3px; 
+margin-bottom:3px;
+ }
+.donate_dt1r2 h6{
+font-size:14px; 
+ }
+ }
+
+@media (min-width:992px) and (max-width:1200px) {
+#donate_dt{
+width:100%!important;
+ }
+ }
+
+@media (min-width:1201px) and (max-width:1300px) {
+.donate_dt1l2 ul li{
+margin-top:3px; 
+margin-bottom:3px;
+ }
+ }
+
+
+

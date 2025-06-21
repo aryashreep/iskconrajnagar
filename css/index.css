@@ -1,0 +1,527 @@
+/*
+Template Name: Krishna Temple
+File: Layout CSS
+Author: TemplatesOnWeb
+Author URI: https://www.templateonweb.com/
+Licence: <a href="https://www.templateonweb.com/license">Website Template Licence</a>
+*/
+
+/*********************center_h****************/
+@keyframes fadeIn {
+  0% { opacity: 0; }
+  100% { opacity: 1; }
+}
+@keyframes fadeOut {
+  0% { opacity: 1; }
+  100% { opacity: 0; }
+}
+.carousel-caption{
+background-color: rgb(247 79 34)!important;
+bottom:70px;
+left:0;
+color:#fff;
+width:40%;
+text-align:left;
+left:40%;
+padding:20px;
+z-index:4;
+animation: fadeIn 5s;
+ }
+ 
+
+.carousel-caption1{
+left:55%;
+ }
+.carousel-caption2{
+left:55%;
+ }
+.carousel-caption3{
+left:55%;
+ }
+.center_home .carousel-indicators{
+bottom:10px; 
+z-index:4;
+ }
+.carousel-caption p{
+border-left:2px solid #efefef;
+padding-left:15px; 
+ }
+ 
+.carousel-item .center_hm1 {
+    z-index: 3;
+    left: 10%;
+    bottom: 0;
+	opacity: 0;
+    transform: translateX(0px);
+	
+}
+.carousel-item.active .center_hm1{
+	opacity: 1;
+    transform: translateX(70px);
+    transition: all 1500ms ease;
+    transition-delay: 1000ms;
+	
+}
+
+
+
+
+.center_ht{
+z-index:3; 
+ }
+.center_home .carousel-control-prev{
+z-index:4;  
+ }
+.center_home .carousel-control-next{
+z-index:4;  
+ }
+/*********************center_h_end****************/
+
+/*********************about_h****************/
+.about_h1l span{
+width:120px;
+height:120px;
+line-height:120px;
+ }
+.about_h2r p{
+border-left:2px solid #f74f22;
+}
+
+.about_h2l h1{
+line-height:0.2em; 
+width:250px;
+height:250px;
+padding-top:100px;
+font-size:70px;
+ }
+.about_h3i1r .form-control{
+background: #0003;
+color:#fff; 
+ }
+.about_h3i1r ::placeholder {
+  color: #fff;
+  opacity: 1; /* Firefox */
+}
+.about_h3i1r .btn{
+background: #0221474d; 
+ }
+.about_h3i1r {
+min-height:190px; 
+ }
+.about_h3i1l {
+min-height:190px; 
+ }
+.about_h3m {
+    left: -5%;
+    bottom: 0;
+}
+.about_h3m2i span{
+width:60px;
+height:60px;
+line-height:60px; 
+ }
+.about_h3m2{
+padding-left:56%;
+top:38%;
+ }
+/*********************about_h_end****************/
+
+/*********************watch****************/
+.watch_1r {
+    padding: 65px 30px 65px 30px;
+    background-color: #fff;
+    box-shadow: 0px 10px 50px 0px rgb(53 82 99 / 9%);
+	min-height:373px;
+}
+.watch_1l2 span a{
+width:80px;
+height:80px;
+line-height:80px;  
+ }
+.watch_1l2 {
+padding-top:25%; 
+ }
+.watch_2l2 span a{
+width:50px;
+height:50px;
+line-height:50px;  
+ }
+.watch_2l2{
+padding-top:18%;   
+ }
+/*********************watch_end****************/
+
+/*********************minist****************/
+.donate_1r .nav-tabs .nav-link.active {
+    background: none;
+    color: #f74f22;
+	border:none;
+	border-bottom:3px solid #f74f22;
+}
+.donate_1r .nav-tabs .nav-link {
+    background: none;
+    color: #767e88;
+	border:none;
+	border-bottom:3px solid transparent;
+	padding:20px 40px;
+	font-size:15px;
+	font-weight:bold;
+}
+.donate_1r .nav-tabs .nav-link:hover {
+  color: #f74f22;
+}
+.minist_1i2 span a{
+width:50px;
+height:50px;
+line-height:50px;
+ }
+.minist_1i3{
+bottom:0; 
+ }
+/*********************minist_end****************/
+
+
+/*********************testim****************/
+#testim{
+margin-top:180px; 
+ }
+.testim_m2{
+top:-40%!important;
+ }
+.testim_1rm2il{
+padding-top:26%; 
+ }
+.testim_1ri{
+padding-top:24%;  
+ }
+/*********************testim_end****************/
+
+
+/*********************blog****************/
+#blog{
+    background-image: url(../img/34.jpg);
+    background-position: center center;
+    background-size: cover;
+}
+/*********************blog_end****************/
+
+@media screen and (max-width : 767px){
+.center_hm1{
+display:none; 
+ }
+.carousel-caption{
+position:static!important;
+width:100%;
+background:#f74f22; 
+text-align:center;
+ }
+.center_ht{
+display:none;  
+ }
+
+.carousel-caption .button_2{
+padding-left:13px;
+padding-right:13px;
+font-size:13px;
+ }
+.carousel-caption .button_3{
+padding-left:13px;
+padding-right:13px;
+font-size:13px;
+ }
+.carousel-caption .font_50{
+font-size:26px;
+ }
+.carousel-caption p{
+font-size:14px;
+text-align:left;
+ }
+.center_home .carousel-indicators {
+   display:none;
+}
+.about_h1l{
+margin-top:8px;
+margin-bottom:8px; 
+ }
+.about_h2l{
+float:none!important;
+ }
+.about_h2r br{
+display:none; 
+ }
+.about_h2r{
+text-align:center;
+margin-top:15px;
+ }
+.about_h2r p{
+text-align:left;
+ }
+.about_h2rilir{
+margin-top:15px;
+}
+.about_h2rilir p{
+text-align:center;
+}
+.about_h3m{
+display:none; 
+ }
+.about_h3m2{
+display:none; 
+ }
+.about_h3i1l{
+min-height:auto;
+text-align:center!important;  
+ }
+.about_h3i1r{
+min-height:auto;
+text-align:center; 
+ }
+.watch_1 .ps-0{
+padding-left:12px!important; 
+ }
+.watch_1 .pe-0{
+padding-right:12px!important; 
+ }
+.watch_1r{
+padding:20px!important;
+min-height:auto;
+text-align:center; 
+ }
+.watch_1r p{
+text-align:left; 
+ }
+.watch_2m{
+margin-top:8px;
+margin-bottom:8px;
+text-align:center; 
+ }
+.donate_1l{
+margin-bottom:10px;
+text-align:center; 
+ }
+.donate_1r .nav-tabs .nav-link {
+ padding: 10px 20px;
+}
+.minist_1i{
+margin-top:8px;
+margin-bottom:8px;
+text-align:center;  
+ }
+.minist_1i1 img{
+min-height:250px; 
+ }
+#testim{
+margin-top:0; 
+ }
+.testim_1l{
+padding-left:0!important;
+padding-right:0!important;
+text-align:center; 
+ }
+.testim_1l p{
+text-align:left; 
+ }
+.testim_m2{
+display:none; 
+ }
+.testim_m{
+margin-top:15px;
+text-align:center; 
+ }
+.testim_m p{
+text-align:left; 
+ }
+.testim_1ri{
+padding-top:30px; 
+ }
+ }
+
+
+@media (min-width:576px) and (max-width:767px) {
+
+ }
+ 
+@media (min-width:768px) and (max-width:991px) {
+	.carousel-caption{
+		bottom:10px;
+		right:10%
+	}
+
+ .center_home .carousel-inner .center_hm1 img{
+	      width: 60%;
+ }
+.carousel-caption .font_50{
+font-size:20px; 
+ }
+.carousel-caption p {
+    font-size: 14px;
+}
+.carousel-caption .button_2{
+padding-left:13px;
+padding-right:13px;
+font-size:13px;
+ }
+.carousel-caption .button_3{
+padding-left:13px;
+padding-right:13px;
+font-size:13px;
+ }
+.about_h1l  h4{
+font-size:16px; 
+ }
+.about_h1l p{
+font-size:14px; 
+ }
+.about_h2r br{
+display:none; 
+ }
+.about_h2rilil .fs-2{
+font-size:18px!important; 
+ }
+.about_h3i1r h5{
+font-size:14px!important;
+ }
+.about_h3i1l  h5{
+font-size:13px!important; 
+ }
+.about_h3i1l  h2{
+font-size:17px!important; 
+ }
+.about_h3i1l  {
+padding-left:20px!important;
+padding-right:20px!important;
+ }
+.about_h3m  img{
+width:300px; 
+ }
+.about_h3m2 {
+    padding-left: 55%;
+}
+.about_h3m2 span{
+    width:50px;
+	height:50px;
+	line-height:50px;
+}
+
+.watch_1l1 img{
+min-height:373px; 
+ }
+.watch_1r{
+padding:15px!important; 
+ }
+.watch_1r h2{
+font-size:20px;
+ }
+.watch_2l1 img{
+min-height:150px; 
+ }
+.watch_2l2 {
+    padding-top: 30%;
+}
+.donate_1r .nav-tabs .nav-link {
+     padding: 10px 20px;
+}
+.donate_1l .font_50{
+font-size:22px; 
+ }
+.minist_1i1 img{
+min-height:240px; 
+ }
+.minist_1i3   p{
+font-size:13px; 
+ }
+.testim_m2 {
+    top: -30%!important;
+}
+.testim_1l{
+padding-left:0!important; 
+padding-right:0!important; 
+ }
+ }
+
+@media (min-width:992px) and (max-width:1200px) {
+.carousel-caption{
+		bottom:40px;
+	}
+.center_home .carousel-inner img{
+
+ }
+  .center_home .carousel-inner .center_hm1 img{
+	      width: 70%;
+ }
+.carousel-caption .font_50{
+font-size:32px; 
+ }
+.carousel-caption .button_2{
+padding-left:20px;
+padding-right:20px;
+font-size:13px;
+ }
+.carousel-caption .button_3{
+padding-left:20px;
+padding-right:20px;
+font-size:13px;
+ }
+ 
+.about_h3i1l  {
+padding-left:20px!important;
+padding-right:20px!important;
+ }
+.watch_1l1 img{
+min-height:373px; 
+ }
+.watch_1r{
+padding:30px!important; 
+ }
+.watch_2l1 img{
+min-height:150px; 
+ }
+.watch_2l2 {
+    padding-top: 25%;
+}
+.minist_1i1 img{
+min-height:240px; 
+ }
+.minist_1i3   p{
+font-size:13px; 
+ }
+.donate_1l .font_50{
+font-size:36px; 
+ }
+.donate_1r .nav-tabs .nav-link {
+     padding: 15px 30px;
+}
+.testim_1l{
+padding-left:0!important; 
+padding-right:0!important; 
+ }
+ }
+
+@media (min-width:1201px) and (max-width:1300px) {
+.center_home .carousel-inner .center_hm1 img{
+	      width: 80%;
+ }
+.carousel-caption .font_50{
+font-size:38px; 
+ }
+.watch_1r{
+padding:15px!important; 
+ }
+.watch_1l1 img{
+min-height:373px; 
+ }
+ }
+@media (min-width:1400px) and (max-width:2000px) {
+.watch_1l1 img{
+min-height:435px; 
+ }
+.watch_1r{
+min-height:435px; 
+padding: 85px 30px 85px 30px;
+ }
+.testim_1ri {
+    padding-top: 28%;
+}
+ }
+
+

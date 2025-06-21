@@ -1,0 +1,153 @@
+/*
+Template Name: Krishna Temple
+File: Layout CSS
+Author: TemplatesOnWeb
+Author URI: https://www.templateonweb.com/
+Licence: <a href="https://www.templateonweb.com/license">Website Template Licence</a>
+*/
+
+/*********************events****************/
+.center_event {
+    background-image: url(../img/1.jpg);
+    background-position: center center;
+    background-size: cover;
+}
+.event_1i2{
+width:90%;
+left:5%;
+bottom:-15%;
+border-radius:20px 0px 20px 20px;
+}
+.event_1i3{
+width:90%;
+bottom:32%;
+right:5%;
+ }
+.event_1i3 span{
+line-height:1.4em;
+width:60px;
+border-radius:20px 20px 0px 0px;
+ }
+.event_1o{
+margin-top:70px!important; 
+ }
+ 
+.center_event_dt {
+    background-image: url(../img/3.jpg);
+    background-position: center center;
+    background-size: cover;
+}
+
+.event_dt1l1l h5 span{
+width:60px;
+height:70px;
+line-height:70px;
+border-radius:0px 0px 30px 30px; 
+ }
+.event_dt1r1 ul li a{
+width:35px;
+height:35px;
+line-height:35px;
+background:#022147; 
+color:#fff;
+font-size:14px;
+border-radius:50%;
+transition: 0.3s;
+ }
+.event_dt1r1 ul li a:hover{
+background:#f74f22;
+ }
+#event{
+padding-bottom:150px!important; 
+}
+#event_dt{
+padding-bottom:150px!important; 
+}
+/*********************events_end****************/
+
+
+@media screen and (max-width : 767px){
+.event_1i1 img{
+min-height:240px; 
+ }
+.event_1i2   h5{
+font-size:16px; 
+ }
+.event_1i2 {
+bottom:0;
+text-align:center;
+ }
+.event_1i3 {
+top:0;
+ }
+.event_1i {
+margin-top:15px; 
+ }
+.event_1o{
+margin-top:20px!important;  
+ }
+#event{
+padding-bottom:40px!important; 
+ }
+ 
+.event_dt1l1l {
+margin-top:15px; 
+ }
+#event_dt{
+width:90%!important;
+ }
+#event_dt h2{
+text-align:center;
+ }
+.event_dt1r{
+margin-top:20px;  
+ }
+#event_dt{
+padding-bottom:40px!important; 
+ }
+ }
+
+
+@media (min-width:576px) and (max-width:767px) {
+
+ }
+ 
+@media (min-width:768px) and (max-width:991px) {
+.event_1i1 img{
+min-height:240px; 
+ }
+.event_1i2   h5{
+font-size:16px; 
+ }
+
+.event_1i2 {
+bottom:0;
+ }
+.event_1i3 {
+top:0;
+ }
+.event_1o{
+margin-top:30px!important;  
+ }
+#event_dt{
+width:100%!important;
+ }
+ }
+
+@media (min-width:992px) and (max-width:1200px) {
+.event_1i1 img{
+min-height:240px; 
+ }
+#event_dt{
+width:100%!important;
+ }
+ }
+
+@media (min-width:1400px) and (max-width:2000px) {
+.event_1i3 {
+    bottom: 25%;
+}
+ }
+
+
+

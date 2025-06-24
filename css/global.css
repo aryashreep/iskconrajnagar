@@ -815,9 +815,9 @@ a.socialIcon:hover,
   top: -19%;
 }
 
-#footer {
+/*#footer {
   padding-top: 140px !important;
-}
+}*/
 /*********************footer_end****************/
 
 @media (max-width: 767px) {

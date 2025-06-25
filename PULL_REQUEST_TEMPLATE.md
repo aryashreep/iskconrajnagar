@@ -22,6 +22,7 @@ Closes #[issue-number]
 - [ ] I have commented my code, especially in hard-to-understand areas
 - [ ] I have added tests or screenshots where applicable
 - [ ] I have updated documentation if necessary
+- [ ] I have tested my changes in multiple browsers/devices (if applicable)
 
 ## 🕊️ Additional Notes
 

@@ -56,6 +56,6 @@ describe("myFunction", () => {
     document.body.style.paddingTop = "38px";
     myFunction();
     expect(navbarSticky.classList.contains("sticky")).toBe(false);
-    expect(document.body.style.paddingTop).toBe("0");
+    expect(document.body.style.paddingTop).toBe("0px");
   });
 });

@@ -1,4 +1,4 @@
-name: Go
+name: JS Coverage
 
 on:
   push:
@@ -8,19 +8,23 @@ on:
 
 jobs:
   test:
-    name: Build and Test
     runs-on: ubuntu-latest
-    permissions:
-      pull-requests: write # required for posting comments
-      contents: write # required for git push
     steps:
       - uses: actions/checkout@v4
 
-      - name: Set up Go
-        uses: actions/setup-go@v5
+      - name: Set up Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: "20"
 
-      - name: Test # this should generate cover.out
-        run: make test
+      - name: Install dependencies
+        run: npm install
 
-      - name: Go Beautiful HTML Coverage
-        uses: "gha-common/go-beautiful-html-coverage@v1"
+      - name: Run tests with coverage
+        run: npm run coverage
+
+      - name: Upload coverage report
+        uses: actions/upload-artifact@v4
+        with:
+          name: coverage-report
+          path: coverage/

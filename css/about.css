@@ -7,10 +7,23 @@ Licence: <a href="https://www.templateonweb.com/license">Website Template Licenc
 */
 
 /*********************about****************/
+p {
+  color: #000 !important;
+}
 .center_about {
   background-image: url(../img/lotus_flower.jpeg);
   background-position: center center;
   background-size: cover;
+}
+.center_mission {
+  background-image: url(../img/seven_purposes.jpg);
+  background-position: center center;
+  background-size: contain;
+}
+.center_founder {
+  background-image: url(../img/Our_Founder.jpeg);
+  background-position: center center;
+  background-size: contain;
 }
 #about_pg {
   padding-bottom: 90px;
@@ -309,6 +322,6 @@ Licence: <a href="https://www.templateonweb.com/license">Website Template Licenc
 
 @media (min-width: 1400px) and (max-width: 2000px) {
   #about_pg {
-    padding-bottom: 200px;
+    padding-bottom: 50px;
   }
 }

@@ -25,6 +25,16 @@ p {
   background-position: center center;
   background-size: contain;
 }
+.center_history {
+  background-image: url(../img/prabhupad.jpg);
+  background-position: center center;
+  background-size: contain;
+}
+.center_movement {
+  background-image: url(../img/lord_chaitanya_lord_nityananda.jpg);
+  background-position: center center;
+  background-size: contain;
+}
 #about_pg {
   padding-bottom: 90px;
 }

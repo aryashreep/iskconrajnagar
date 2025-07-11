@@ -16,7 +16,7 @@
     "live-server": "^1.2.2",
     "jest": "^30.0.4",
     "jest-environment-jsdom": "^27.0.0",
-    "nyc": "^15.0.0"
+    "nyc": "^17.1.0"
   },
   "dependencies": {
     "bootstrap": "^5.1.3",

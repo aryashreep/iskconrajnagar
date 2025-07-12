@@ -35,6 +35,11 @@ p {
   background-position: center center;
   background-size: contain;
 }
+.center_donation {
+  background-image: url(../img/food.jpg);
+  background-position: center center;
+  background-size: contain;
+}
 #about_pg {
   padding-bottom: 90px;
 }

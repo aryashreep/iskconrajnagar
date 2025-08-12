@@ -1,0 +1,27 @@
+{
+  "name": "ISKCON Rajnagar",
+  "short_name": "ISKCON Rajnagar",
+  "theme_color": "#00ff00",
+  "background_color": "#ffffff",
+  "display": "browser",
+  "orientation": "any",
+  "scope": "https://iskconrajnagar.org/",
+  "start_url": "https://iskconrajnagar.org/",
+  "icons": [
+    {
+      "src": "/img/manifest-icons/logo-192.png",
+      "type": "image/png",
+      "sizes": "192x192"
+    },
+    {
+      "src": "/img/manifest-icons/logo-256.png",
+      "type": "image/png",
+      "sizes": "256x256"
+    },
+    {
+      "src": "/img/manifest-icons/logo-512.png",
+      "type": "image/png",
+      "sizes": "512x512"
+    }
+  ]
+}
